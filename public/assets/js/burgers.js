@@ -22,11 +22,13 @@ $(function () {
   $(".create-form").on("submit", function (event) {
     // Make sure to preventDefault on a submit event.
     event.preventDefault();
+    // alert($("input[name=devoured]:checked", ".create-form").val().trim())
 
     var newBurger = {
       burger_name: $("#burgerName").val().trim(),
-      burger: $("[name=devoured]:checked").val().trim()
+      devoured: $("input[name=devoured]:checked", ".create-form").val().trim()
     };
+
 
     // Send the POST request.
     $.ajax("/api/burgers", {
