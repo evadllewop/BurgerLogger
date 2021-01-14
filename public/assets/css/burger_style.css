@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eaeaea;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../img/whataburgerStripes.png"); 
+}
+.container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 40px;
+}
+
+.headerStyle {
+    margin: 0;
+    height:120px;
+    width: 100%;
+    background-color: #FF780F;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+  align-content: center;
+  }
+
+  .logo {
+      
+      width: 300px;
+      
+      margin:24px;
+
+  }
+
+  .btn {
+      margin: 4px;
+    background-color: #FF780F;
+    color:white;
+  }
+
+  .btn:hover {
+    margin: 4px;
+  background-color: #d65f03;
+  color:white;
+}
+
+  h2 {
+
+    margin-bottom: 30px;
+  }

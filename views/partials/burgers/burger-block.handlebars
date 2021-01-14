@@ -1,0 +1,13 @@
+<li>
+    <div class="row">
+        <div class="col-md-6">
+            {{burger_name}}
+        </div>
+        <div class="col-md-6">
+            <button class="change-devoured btn" data-id="{{id}}" data-newdevoured="{{devoured}}">
+                {{#if devoured}}Devour Me!{{else}}Put Back{{/if}}
+            </button>
+
+            <button class="delete-devoured btn" data-id="{{this.id}}">X</button>
+        </div>
+</li>
