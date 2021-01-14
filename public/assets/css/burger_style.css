@@ -12,25 +12,25 @@ body {
     margin-bottom: 40px;
     background-color: white;
     padding: 40px;
+    box-shadow: 0 0px 12px -6px #333;
+    border-radius: 5px;
 }
 
 .headerStyle {
     margin: 0;
-    height:120px;
+    height:110px;
     width: 100%;
     background-color: #FF780F;
     display: flex;
     vertical-align: middle;
     justify-content: center;
-  align-content: center;
+    align-content: center;
+    box-shadow: 0 2px 10px -6px #333;
   }
 
   .logo {
-      
-      width: 300px;
-      
-      margin:24px;
-
+      width: 260px;
+      margin-top:24px;
   }
 
   .btn {
@@ -44,8 +44,9 @@ body {
   background-color: #d65f03;
   color:white;
 }
-
   h2 {
-
     margin-bottom: 30px;
+  }
+  hr {
+      margin-bottom: 30px;
   }
