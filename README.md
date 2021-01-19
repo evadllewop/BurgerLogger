@@ -5,6 +5,9 @@
   ## Description
   A burger logger created with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). This application follows the MVC (Model, View, Controller) design pattern.
 
+  Heroku URL:
+  https://tranquil-everglades-64817.herokuapp.com/
+
   ## Table of Contents
 
   * [Usage](#usage)
